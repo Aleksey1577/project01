@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(205, 215, 219);
+
+    @include phones{
+        display: flex;
+    }
+}
+
+.logo {
+    width: rem(40px);
+    height: rem(40px);
+}
+
+
+.phone-number.header__phone-number {
+    @include phones {
+        display: none;
+    }
+}
+
+.phone-number {
+    font-size: rem(18px);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.phone-number__icon-elem {
+    height: rem(13.78px);
+    width: rem(13.93px);
+    margin-right: rem(07px);
+}

@@ -1,0 +1,31 @@
+.btn {
+    font-size: $baseFontSize16;
+    font-weight: bold;
+    padding: rem(18px) rem(41px);
+    text-transform: uppercase;
+    border-radius: rem(50px);
+    line-height: 1;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+
+    &--theme--green {
+        background: $green;
+        color: $white;
+
+        &:hover {
+            background: $white;
+            color: $green;
+        }
+    }
+
+    &--theme--transparent {
+        background: transparent;
+        color: $white;
+        padding: rem(18px) rem(10px);
+
+        &:hover {
+            color: $green;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.title-benefits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
+  font-weight: 700;
+  font-size: rem(48px);
+  color: $black;
+}
+
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+
+.benefits-item {
+  display: flex;
+  height: 45%;
+  width: 45%;
+}
+
+.benefits-item:hover {
+  transform: scale(1.3);
+}
+
+.benefits-img {
+  width: 64px;
+  height: 64px;
+  margin-right: 10px;
+}
+
+.bn-img {
+  width: 64px;
+  height: 64px;
+  margin-right: 5px;
+}
+
+.reviews__title {
+  font-size: rem(25px);
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.reviews__text {
+  padding-bottom: 50px;
+}
+
+.benefits__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

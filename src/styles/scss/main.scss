@@ -1,0 +1,30 @@
+@import "media";
+
+$containerWidth: 940px;
+$baseFontSize16: 16px;
+$baseFontSize48: 48px;
+
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+//colors
+$green: #30e068;
+$black: #020101;
+$white: white;
+$gray: rgba(102, 102, 102, 1);
+$background1: #F5F5F5;
+
+//normalize
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+
+
+@import "layout";
+
+//components
+@import "components/hero";
+@import "components/menu";
+@import "components/benefits";
+@import "components/btn";
+@import "components/footer";
+@import "components/order";

@@ -1,0 +1,98 @@
+.map-section {
+    position: relative;
+}
+
+.title__contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: rem(40px);
+    padding: 10% 0;
+    font-weight: 700;
+    color: $black;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__container {
+    padding: rem(20px) 0;
+
+    @include phones {}
+}
+
+.map {
+    height: 90vh;
+    width: 100vw;
+}
+
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+
+}
+
+.footer__contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include phones {
+        flex-direction: column;
+    }
+}
+
+.contacts{
+
+}
+
+.contacts__place {
+    font-size: rem(18px);
+    line-height: rem(24px);
+
+    @include tablets {
+        font-size: rem(21px);
+    }
+}
+
+.footer__contacts-number {
+    font-size: rem(18px);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer__phone-number__icon-elem {
+    height: rem(13.78px);
+    width: rem(13.93px);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    transform: translateX(5px);
+
+    @include tablets {
+        transform: none;
+    }
+}
+
+.social__item {
+    margin-right: rem(10px);
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.social__icon {
+    width: rem(30px);
+    height: rem(30px);
+}
